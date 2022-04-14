@@ -1,0 +1,25 @@
+@import "./mixins/header";
+@import "./mixins/modal";
+@import "./mixins/variables";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nameP {
+  cursor: pointer;
+}
